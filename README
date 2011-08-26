@@ -1,0 +1,13 @@
+The pyDeco system is an opensource descompression system wrote on Python programming language
+there will be 4 phases
+[phase 1]
+Generate a simple Nitrox calculator for reacrational divers that will calculate Maximun Depth when user inputs percent of O2 on the mix following rule:
+((maxO2PressureOnTheDive/mixO2Pressure)-diveAbsolutePressure)*DephtEquivalantto1Atm
+Calculate the Air Equivalent Depth when using Nitrox
+AED = 1-PPO2*0,79
+[phase 2]
+Generate a deco system using the algorithm  found here http://www.lizardland.co.uk/DIYDeco.html
+[phase 3]
+Preapre a webservice using the software on the phase 2
+[phase 4] 
+Integrate more descompression algorithms
